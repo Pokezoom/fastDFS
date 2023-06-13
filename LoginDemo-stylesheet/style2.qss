@@ -1,0 +1,120 @@
+.Login
+{
+    border-image: url(":/style2/images/background.jpg");
+}
+Login *
+{
+    font-family: '华文行楷';
+    font-size: 20px;
+}
+
+QLabel#loginTitle,#registerTitle,#serverSetTitle
+{
+    font-family: '新宋体';
+    font-size: 32px;
+    font-weight: bold;
+}
+
+QLabel#logo
+{
+    width: 40px;
+    height: 40px;
+    border-image:url(":/style2/images/15.png");
+}
+QLabel#logoName
+{
+    color:white;
+    font-family: '华文楷体';
+    font-size: 26px;
+    font-weight: bold;
+}
+
+QToolButton#regAccount
+{
+    color:red;
+    text-decoration: underline;
+}
+
+QPushButton#loginButton, #registreBtn, #setOkBtn
+{
+    color: green;
+    width: 150px;
+    height: 50px;
+    font-size:30px;
+    border-image:url(":/style2/images/btn-bk1.jpg");
+    border-radius:6px;
+}
+QPushButton#loginButton:hover, #registreBtn:hover, #setOkBtn:hover
+{
+    border-image:url(":/style2/images/btn-bk2.jpg");
+}
+QPushButton#loginButton:pressed, #registreBtn:pressed, #setOkBtn:pressed
+{
+    border-image:url(":/style2/images/btn-bk3.jpg");
+}
+
+/* 服务器设置按钮 */
+QToolButton#setBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style2/images/set1.png");
+}
+QToolButton#setBtn:hover
+{
+    border-image:url(":/style2/images/set2.png");
+}
+QToolButton#setBtn:pressed
+{
+    border-image:url(":/style2/images/set3.png");
+}
+
+/* 最小化按钮 */
+QToolButton#minBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style2/images/min1.png");
+}
+QToolButton#minBtn:hover
+{
+    border-image:url(":/style2/images/min2.png");
+}
+QToolButton#minBtn:pressed
+{
+    border-image:url(":/style2/images/min3.png");
+}
+
+/* 关闭按钮 */
+QToolButton#closeBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style2/images/close1.png");
+}
+QToolButton#closeBtn:hover
+{
+    border-image:url(":/style2/images/close2.png");
+}
+QToolButton#closeBtn:pressed
+{
+    border-image:url(":/style2/images/close3.png");
+}
+
+/* 换肤按钮 */
+QToolButton#skinBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style2/images/s1.png");
+}
+QToolButton#skinBtn:hover
+{
+    border-image:url(":/style2/images/s2.png");
+}
+QToolButton#skinBtn:pressed
+{
+    border-image:url(":/style2/images/s3.png");
+}
+
+

@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/style1">
+        <file>images/6.png</file>
+        <file>images/7.png</file>
+        <file>images/8.png</file>
+        <file>images/balckButton.png</file>
+        <file>images/Blue.png</file>
+        <file>images/login_bk.jpg</file>
+        <file>images/login_setting.png</file>
+        <file>images/logo.ico</file>
+        <file>images/Red.png</file>
+        <file>images/top1.png</file>
+        <file>images/top2.png</file>
+        <file>images/Yellow.png</file>
+        <file>images/m1.png</file>
+        <file>images/m2.png</file>
+        <file>images/m3.png</file>
+        <file>images/13.png</file>
+    </qresource>
+    <qresource prefix="/style2">
+        <file>images/min1.png</file>
+        <file>images/min2.png</file>
+        <file>images/min3.png</file>
+        <file>images/set1.png</file>
+        <file>images/set2.png</file>
+        <file>images/set3.png</file>
+        <file>images/background.jpg</file>
+        <file>images/s1.png</file>
+        <file>images/s2.png</file>
+        <file>images/s3.png</file>
+        <file>images/close1.png</file>
+        <file>images/close2.png</file>
+        <file>images/close3.png</file>
+        <file>images/logo1.ico</file>
+        <file>images/15.png</file>
+        <file>images/btn-bk.jpg</file>
+        <file>images/btn-bk1.jpg</file>
+        <file>images/btn-bk2.jpg</file>
+        <file>images/btn-bk3.jpg</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>style1.qss</file>
+        <file>style2.qss</file>
+    </qresource>
+</RCC>

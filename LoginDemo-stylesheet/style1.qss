@@ -1,0 +1,111 @@
+.Login
+{
+    border-image: url(":/style1/images/login_bk.jpg");
+}
+Login *
+{
+    font-family: '新宋体';
+    font-size: 16px;
+    font-weight: bold;  
+}
+
+QLabel#loginTitle,#registerTitle,#serverSetTitle
+{
+    font-family: '华文新魏';
+    font-size: 32px;
+}
+
+QLabel#logo
+{
+    width: 40px;
+    height: 40px;
+    border-image:url(":/style1/images/logo.ico");
+}
+QLabel#logoName
+{
+    font-family: '微软雅黑';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QToolButton#regAccount
+{
+    color:orange;
+    text-decoration: underline;
+}
+
+QPushButton#loginButton, #registreBtn, #setOkBtn
+{ 
+    color:white;
+    width: 150px;
+    height: 50px;
+    font-size:25px;
+    border-image:url(":/style1/images/balckButton.png");
+}
+
+/* 服务器设置按钮 */
+QToolButton#setBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style1/images/login_setting.png");
+}
+QToolButton#setBtn:hover
+{
+    border-image:url(":/style1/images/top1.png");
+}
+QToolButton#setBtn:pressed
+{
+    border-image:url(":/style1/images/top2.png");
+}
+
+/* 最小化按钮 */
+QToolButton#minBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style1/images/Yellow.png");
+}
+QToolButton#minBtn:hover
+{
+    border-image:url(":/style1/images/Blue.png");
+}
+QToolButton#minBtn:pressed
+{
+    border-image:url(":/style1/images/Red.png");
+}
+
+/* 关闭按钮 */
+QToolButton#closeBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style1/images/6.png");
+}
+QToolButton#closeBtn:hover
+{
+    border-image:url(":/style1/images/7.png");
+}
+QToolButton#closeBtn:pressed
+{
+    border-image:url(":/style1/images/8.png");
+}
+
+/* 换肤按钮 */
+QToolButton#skinBtn
+{
+    width:35px;
+    height:35px;
+    border-image:url(":/style1/images/m1.png");
+}
+QToolButton#skinBtn:hover
+{
+    border-image:url(":/style1/images/m2.png");
+}
+QToolButton#skinBtn:pressed
+{
+    border-image:url(":/style1/images/m3.png");
+}
+
+
+

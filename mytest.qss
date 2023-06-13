@@ -1,0 +1,101 @@
+/* 登录窗口设置背景图片 */
+Login {
+	min-width: 640;
+	min-height: 480;
+	border-image: url(:/images/login_bk.jpg);
+}
+/* 登录窗口所有控件设置字体, 字体大小 */
+Login * 
+{
+	font-family: 仿宋;
+	font-size: 20px; 
+}
+/* 设置登录/注册/服务器设置窗口标题字体, 字体大小 */
+QLabel#loginTitle, #regTitle, #setTitle
+{
+	font-family: 华文彩云;
+	font-size: 30px; 
+}
+/* 设置logo显示的图片 */
+QLabel#logo
+{
+	min-width: 40;
+	min-height: 40;
+	border-image: url(:/images/logo.ico);
+}
+/* 设置窗口标题字体, 字体大小, 加粗 */
+QLabel#title
+{
+	font-family: 微软雅黑;
+	font-size: 24px; 
+	color: white;
+	font-weight: bold;
+}
+/* 没有账号马上注册按钮: 字体颜色和添加下划线 */
+QPushButton#regAccount
+{
+	color: orange;
+	text-decoration:underline;
+}
+/* 登录/注册/OK按钮: 字体颜色, 宽度, 高度, 字体大小, 显示图片 */
+QPushButton#loginBtn
+{
+	color: 	white;
+	width: 200;
+	height: 50;
+	font-size: 30px;
+	border-image: url(:/images/balckButton.png);
+}
+/* 标题栏按钮: normal, hover, press三种状态切换 */
+/* 按钮的悬停状态 */
+QPushButton#loginBtn:hover
+{
+	border-image: url(:/images/btn-bk1.jpg); /* 默认显示的图片 */
+}
+/* 按钮的按下状态 不是css中的标准状态, qt独有的 */
+QPushButton#loginBtn:pressed
+{
+	border-image: url(:/images/btn-bk3.jpg); /* 默认显示的图片 */
+}
+
+ QCheckBox {
+      spacing: 15px;
+  }
+
+  QCheckBox::indicator {
+      width: 24px;
+      height: 24px;
+  }
+
+  QCheckBox::indicator:unchecked {
+      image: url(:/images/m1.png);
+  }
+
+  QCheckBox::indicator:unchecked:hover {
+      image: url(:/images/m2.png);
+  }
+
+  QCheckBox::indicator:unchecked:pressed {
+      image: url(:/images/m3.png);
+  }
+
+  QCheckBox::indicator:checked {
+      image: url(:/images/m4.png);
+  }
+
+  QCheckBox::indicator:checked:hover {
+      image: url(:/images/m5.png);
+  }
+
+  QCheckBox::indicator:checked:pressed {
+      image: url(:/images/m6.png);
+  }
+
+  QCheckBox::indicator:indeterminate:hover {
+      image: url(:/images/m7.png);
+  }
+
+  QCheckBox::indicator:indeterminate:pressed {
+      image: url(:/images/m8.png);
+  }
+ 

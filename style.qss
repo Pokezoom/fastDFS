@@ -1,0 +1,65 @@
+Login
+{
+	min-width: 640px;
+	min-height: 480px;
+	border-image: url(:/images/login_bk.jpg);
+}
+/*	登录窗口所有控件设置字体, 字体大小 */
+Login *
+{
+	font-family: 华文彩云;
+	font-size: 16pt;
+}
+/* 设置登录/注册/服务器设置窗口标题字体, 字体大小 */
+QLabel#loginTile, #regTitle, #serverTitle
+{
+	color: blue;
+	font-family: 华文仿宋;
+	font-size: 20pt;
+}
+/* 设置logo显示的图片 */
+QLabel#logo
+{
+	min-width: 40px;
+	min-height: 40px;
+	border-image: url(:/images/logo.ico);
+}
+/* 设置窗口标题字体, 字体大小, 加粗 */
+QLabel#winTitle
+{
+	font-family: 微软雅黑;
+	font-size: 20pt;
+	color: rgb(255, 255, 255);
+	font-weight：bold;
+}
+/* 没有账号马上注册按钮: 字体颜色和添加下划线 */
+QToolButton#registerUser
+{
+	color: orange;
+	text-decoration: underline;
+}
+/* 登录/注册/OK按钮: 字体颜色, 宽度, 高度, 字体大小, 显示图片 */
+QPushButton#loginBtn, #regBtn, #okBtn
+{
+	color: white;
+	max-width: 200px;
+	max-height: 50px;
+	font-size: 20pt;
+	border-image: url(:/images/balckButton.png);
+}
+QPushButton#loginBtn, #regBtn, #okBtn
+{
+	color: white;
+	min-width: 200px;
+	min-height: 50px;
+	font-size: 20pt;
+	border-image: url(:/images/title_bk.jpg);
+}
+QPushButton#loginBtn:hover
+{
+	border-image: url(:/images/title_bk2.jpg);
+}
+QPushButton#loginBtn:pressed
+{
+	border-image: url(:/images/title_bk3.jpg);
+}
